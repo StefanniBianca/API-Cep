@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cep.css">
+    <title>CEP</title>
+</head>
+<body> 
+    <main>
+    <div class="ih">
+      <form method="get" action=".">
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value=""  maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+               <!-- onblur - O evento onblur ocorre quando um objeto perde o foco, por exemplo quando o mouse não esta nele -->
+               
+        <label>Rua:
+        <input name="rua" type="text" id="rua"  /></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro"  /></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade"  /></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf"  /></label><br />
+        <label>Número:
+          <input name="numero" type="text" id="num"  /></label><br />
+
+        
+      </form>
+    </div>
+    </main>
+    <script src="cep.js"></script>
+</body>
+</html>

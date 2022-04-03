@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+body {
+    background-color: #17181D;
+    color: ghostwhite;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.ih {
+    background-color: #292c35;
+    color: ghostwhite;
+    align-items: center;
+    padding: 15%;
+    padding-left: 25%;
+    border-radius: 15px;
+    font-size: 200%;
+}
+
+input {
+    size: 15%;
+    background-color:#17181D;
+    color: ghostwhite;
+    font-size: 65%;
+    align-content: center;
+}
